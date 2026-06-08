@@ -268,7 +268,7 @@ window.siteContent = {
     links: [
       { label: "Email", href: "mailto:zheheng04@outlook.com" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/zheheng-fan-06236b304/" },
-      { label: "CV", href: "assets/Zheheng Fan_CV.pdf" }
+      { label: "CV", href: "assets/Zheheng_Fan_CV.pdf" }
     ]
   }
 };
