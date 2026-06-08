@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic webpage: profile, research, written works, posters, and contact information." data-page-description>
+    <title data-page-title>Zheheng Fan | Academic Webpage</title>
+    <link rel="preload" href="assets/immunology-hero.svg" as="image" data-hero-preload>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" data-brand-mark>Z</span>
+        <span data-brand-name>Zheheng Fan</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#pi">Zheheng Fan</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#lab">Skills</a>
+        <a href="#works">Works</a>
+        <a href="#cv">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" data-theme-toggle>
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+        <span class="theme-toggle-text" data-theme-label>Light</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero profile-hero" aria-label="Profile">
+        <img class="hero-image" src="assets/immunology-hero.svg" alt="" data-hero-image>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-hero-eyebrow>Profile</p>
+          <h1 data-hero-name>Zheheng Fan</h1>
+          <p class="profile-subtitle" data-profile-subtitle></p>
+          <p class="profile-keywords" data-profile-keywords></p>
+          <p class="lede" data-hero-tagline>
+            I am developing an academic profile around immunology, computational biology, and clear scientific communication.
+          </p>
+          <div class="hero-actions" aria-label="Primary links" data-hero-actions></div>
+        </div>
+      </section>
+
+      <section class="section intro-grid" id="pi">
+        <div class="intro-profile">
+          <p class="section-kicker" data-about-kicker>PI</p>
+          <h2 data-about-heading>Zheheng Fan</h2>
+          <img class="profile-photo" src="assets/profile-placeholder.svg" alt="Profile photo of Zheheng Fan" data-about-photo>
+        </div>
+        <div class="intro-copy" data-about-body></div>
+      </section>
+
+      <section class="section education-section" id="education">
+        <div class="section-heading">
+          <p class="section-kicker" data-education-kicker>Education</p>
+          <h2 data-education-heading>Education</h2>
+        </div>
+        <div class="education-track" data-education-items></div>
+      </section>
+
+      <section class="section band" id="research">
+        <div class="section-heading">
+          <p class="section-kicker" data-focus-kicker>Focus</p>
+          <h2 data-focus-heading>Current Interests</h2>
+        </div>
+        <div class="focus-grid" data-focus-items></div>
+      </section>
+
+      <section class="section methods-section" id="lab">
+        <div class="section-heading">
+          <p class="section-kicker" data-methods-kicker>Skills</p>
+          <h2 data-methods-heading>Laboratory and analytical skills</h2>
+        </div>
+        <div class="method-list" data-methods-items></div>
+      </section>
+
+      <section class="section works-section" id="works">
+        <div class="section-heading">
+          <p class="section-kicker" data-works-kicker>Works</p>
+          <h2 data-works-heading>Written works and posters</h2>
+        </div>
+        <div class="works-stack" data-works-items></div>
+      </section>
+
+      <section class="section contact-band" id="cv">
+        <div>
+          <p class="section-kicker" data-contact-kicker>Contact</p>
+          <h2 data-contact-heading>Contact</h2>
+          <p data-contact-body>
+            Get in touch by email, LinkedIn, or download my CV.
+          </p>
+        </div>
+        <div class="contact-links" data-contact-links></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> <span data-footer-name>Zheheng Fan</span>. <span data-footer-note>Built as a simple personal homepage.</span></p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
